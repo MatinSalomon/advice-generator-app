@@ -24,6 +24,7 @@ body{
     background-color: hsl(218, 23%, 16%) ;
 }
 .container{
+    position: relative;
     background-color: hsl(217, 19%, 24%);
     width: 500px;
     height: 300px;
@@ -42,19 +43,19 @@ body{
 
 .container .advice-text{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: hsl(193, 38%, 86%);
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
 .container button{
     position: absolute;
-    top: 62%;
+    bottom: -9%;
     left: 50%;
     transform: translateX(-50%);
-    margin: 40px auto 0;
+    margin: auto;
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -81,17 +82,5 @@ body{
     }
     .container .advice-text{
         font-size: 1.3rem;
-    }
-    .container button{
-        display: block;
-        margin: 25px auto 0;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        background-color: hsl(150, 100%, 66%);
-        border: none;
-        padding: 0;
-        box-sizing: border-box;
-        aspect-ratio: 1 / 1; 
     }
 }
